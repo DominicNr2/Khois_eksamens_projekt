@@ -9,4 +9,14 @@ public class HomescreenController {
     private void switchToDaily() throws IOException {
         App.setRoot("DailyTasks");
     }
+
+    @FXML
+    private void switchToImportant() throws IOException {
+        App.setRoot("ImportantTasks");
+    }
+
+    @FXML
+    private void switchToSettings() throws IOException {
+        App.setRoot("Settings");
+    }
 }

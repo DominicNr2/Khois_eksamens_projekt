@@ -5,9 +5,9 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.geometry.Insets?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ImportantTasksController">
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.SettingsController">
    <children>
-      <Label text="Important Tasks View" />
+      <Label text="Settings View" />
       <Button fx:id="primaryButton" text="Homescreen" onAction="#switchToHomescreen"/>
    </children>
    <padding>

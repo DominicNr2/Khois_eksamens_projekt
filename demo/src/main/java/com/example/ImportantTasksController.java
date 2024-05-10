@@ -5,9 +5,8 @@ import java.io.IOException;
 import javafx.fxml.FXML;
 
 public class ImportantTasksController {
-/*         @FXML
-    private void switchToSecondary() throws IOException {
-        App.setRoot("secondary");
-    } */
+    @FXML
+    private void switchToHomescreen() throws IOException {
+        App.setRoot("Homescreen");
+    }
 }
-
